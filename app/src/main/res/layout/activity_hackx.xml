@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fitsSystemWindows="true" tools:openDrawer="start"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="30dp"
+        android:background="#fff"
+        >
+
+        <include
+            layout="@layout/app_bar_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bar"
+            android:background="#00ffffff"
+            android:backgroundTint="#00ffffff" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/bar">
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/hackxfir"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="400dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+
+                    android:text="HackX 2k17 was the successful second edition of the information technology oriented and innovation based hackathon where energetic, talented and vibrant undergraduates strived to compete towards the excellence, organized by the MIT undergraduates of University of Kelaniya. The hackathon itself was organized in parallel with the launch of 13th issue of the magazine ‘Exposition’, a platform for many young innovators to display their talents in programming, designing, developing and commercializing. Out of hundred plus applications called upon through the official website, 15 most innovative ideas were chosen for the elegant grand finale held at Dialog Axiata auditorium as an overnight event on September 15 and 16, which included a 12-hour continuous coding/developing session followed by final pitch presentations. Dialog Ideamart, Orange IT, Wild Elephant, Readme.lk, SLASSCOM, Hackathons.lk and Loons Lab were the partners of hackX 2k17. A distinguished
+panel of Judges comprised of experienced industry experts evaluated final presentations of the teams and three best teams were awarded for their astounding performance at the event. Team EchonLabs of University of Jayawardhanapura became the Winner of the competition while, Team Apocalypse of University of Colombo, School of Computing and HeliumX of National School of Business Management (NSBM) became the 1st and the 2nd runners-up consecutively.
+"
+                    android:layout_marginBottom="5dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemzoomin"
+        android:icon="@mipmap/ic_zoomin"
+        android:title="Zoom in"/>
+    <item
+        android:id="@+id/itemzoomout"
+        android:icon="@mipmap/ic_zoomout"
+        android:title="Zoom out"/>
+    <item
+        android:id="@+id/itemdark"
+        android:icon="@mipmap/moon"
+        android:title="Dark"/>
+    <item
+        android:id="@+id/itemlite"
+        android:icon="@mipmap/sun"
+        android:title="Lite"/>
+
+    <item
+        android:id="@+id/itemshare"
+        android:icon="@mipmap/share"
+        android:title="Share"/>
+</menu>

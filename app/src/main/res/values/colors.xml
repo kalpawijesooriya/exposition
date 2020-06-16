@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0219ac</color>
+    <color name="colorPrimaryDark">#707070</color>
+    <color name="colorPrimaryLight">#d49612</color>
+    <color name="colorAccent">#afafaf</color>
+    <color name="colorPrimaryText">#FF0000</color>
+    <color name="colorSecondaryText">#2a4698</color>
+    <color name="colorIcons">#3d3d3d</color>
+    <color name="colorWhite">#f2c913</color>
+    <color name="colorDivider">#454b8a</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="toolbar">#77da9f21</color>
+    <color name="yourTranslucentColor">#29000000</color>
+</resources>

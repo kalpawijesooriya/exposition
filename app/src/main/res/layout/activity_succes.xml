@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fitsSystemWindows="true" tools:openDrawer="start"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="30dp"
+        android:background="#fff"
+        >
+
+        <include
+            layout="@layout/app_bar_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bar"
+            android:background="#00ffffff"
+            android:backgroundTint="#00ffffff" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/bar">
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_margin="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/imghasitha"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="400dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/load" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#cacaca"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="180dp"
+                android:text="Hasitha Ariyarathna Principal software engineer GT NEXUS an infor company"
+                android:layout_marginBottom="5dp"/>
+<TextView
+    android:id="@+id/Hasitha"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:paddingTop="8dp"
+    android:textSize="18sp"
+    android:textColor="#000"
+    android:lineSpacingExtra="3dp"
+    android:fontFamily="times new roman"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Over the years at university, I assessed the areas in which I could perform well and the areas in which I needed help. I focused on spending my time on sharpening the areas in which I had a positive potential, rather than trying to improve in the minority of things I wasn’t doing good at. This, indeed, helped me create a priority list for my future, and truly be myself.  The interest I had in computer programming led me to interact with other programmers across the world through forums and got me wanting to “go international” and work in a “world class organization”. Despite the risks I had to take, I got an opportunity to join the Singapore branch of Seagate International, which marked a turning point in my career, enabling me to gain confidence while earning an impressive salary at a young age.  From then on, I worked with two fortune 500 companies as a direct employee and made a partnership with an Australian start-up company in 2016. I believe in dreaming big, in taking risks, in being myself and in continuous improvement. You may find these key factors standing behind the achievements of your life, as I did in mine."
+    android:layout_marginBottom="5dp"
+   />
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line2"/>
+        <ImageView
+            android:id="@+id/imgkrishan"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/load"/>
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:textColor="#cacaca"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:text="Krishan Fernando Head of finance excellence Unilever Sri Lanka ltd"
+                android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/Krishan_Fernando"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="8dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:lineSpacingExtra="3dp"
+            android:fontFamily="times new roman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Looking back, over the lapse of 9 years since I graduated from the beloved Department of Industrial Management, I could still recall the fond memories of how the whole experience of the MIT degree; including the lecturers and the colleagues, helped me shape my career. A noteworthy feature about the MIT degree is that, it helps produce well-rounded individuals, with a curriculum that focuses on both management and IT aspects. Qualifying in two such diverse and demanded disciplines has helped me perform this exciting role better, both in leveraging IT skills and business acumen in operations like supply chain management, marketing etc. The degree not only looks at shaping individuals through academic knowledge but also emphasizes on providing opportunities to gather practical wisdom. My first commercial experience goes back to 2006, where I got the first glimpse of the corporate culture at Unilever, as an intern of the University Internship Program. This exposure greatly helped me as I joined Unilever as a Management Trainee after graduation. I would fail in my duties if I forget to mention the love and care shown to us by the panel of lecturers, on an individual basis. In conclusion, I would like to say that I am glad that I happened to be a product of MIT which still holds a big place in my life, even after so many years from graduation."
+            android:layout_marginBottom="5dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line2"/>
+
+
+            <ImageView
+                android:layout_marginTop="5dp"
+            android:id="@+id/imglakruwani"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/load"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#cacaca"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="180dp"
+                android:text="Lakruwini de Zoysa Business analyst MAS holdings"
+                android:layout_marginBottom="5dp"/>
+
+
+            <TextView
+            android:id="@+id/Lakruwini_deZoysa"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:paddingTop="8dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:lineSpacingExtra="3dp"
+                android:fontFamily="times new roman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MIT is unarguably the best degree program one can pursue in Sri lanka that provides solid technical, strategic and analytic capabilities along with the perfect integration of both Management and Information Technology to become dynamic professionals in the corporate industry. From the very first day of my undergraduate life I felt the positive difference. The culture, learning environment, lecturers and facilities in the Department of Industrial Management was the best which brought me tremendous opportunities I couldn’t even think of. The Department of Industrial Management has always been the home away from home for me for four years. The IM is really a family with strong, everlasting bonds among lecturers, senior and junior batch mates. The IM made me the person whom I am today, the person I have always wanted to be and have also paved the path to be the person whom I now dream of becoming one day."
+                android:layout_marginBottom="5dp"/>
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line2"/>
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/imgmalith"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/load"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#cacaca"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="180dp"
+                android:text="Malith Suraweera Business Analyst DirectFN"
+                android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/Malith_Suraweera"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="8dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:lineSpacingExtra="3dp"
+            android:fontFamily="times new roman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indeed, I was a traditional A/L student who dreamt to be someone with stethoscope around neck. When I applied to MIT degree program having a z-Score of 1.8064, UGC called me and asked ‘Is this actually YOU who had put MIT as the 1st preference? ’. Basically UGC asked me whether I am nuts! But before joining DIM, I knew the gods and goddess like lecturers were different, the culture was different and it is the best fit for the crazy like me. So I said ‘No I am not nuts! Thanks!’ The very professional learning environment, openness of the lecturers, the global perspective of the teachings, the friendliness, motherliness care for the students; all these makes DIM a place only for the blessed, privileged and empowered. My message for fellow MITIans: Always be a man with no PLAN but do whatever you do with PASSION! Quoting Steve Jobs, “You can’t connect the dots looking forward; you can only connect them by looking backwards. So you have to trust that the dots will somehow connect in the future” Believe in yourself. You may wander around years of your life not having a slightest clue of life. But if you are doing something wholeheartedly, one day suddenly the dots will connect and create the fortune which you always looked for. "
+            android:layout_marginBottom="5dp"/>
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/line2"/>
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:id="@+id/imgmatheesha"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/load"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#cacaca"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="180dp"
+                android:text="Matheesha Fernando Auxenta Inc. Associate Tech Lead
+"
+                android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/Matheesha_Fernando"
+            android:text="I can still recall my first day at the Department of Industrial Management as a fresher, where I was asked about my future ambition. Of course, I replied as “I want to be a software engineer”, but that very specific question sharpened my focus and guided me throughout the 4 years of my university life. I still feel our department as my second home and it’s a never ending bond. All the failures, lessons learned and success stories are beautiful memories that made the person who I am today. The unconditional love and support we received from all of my dear lecturers and the non-academic staff was immense and I can vouch that this is the best in the entire university system. BSc in Management and Information Technology opened myself in to a wide range of subjects and skills which are now helping me to perform as an all-rounder in the industry. I’m proud to be a MITian and wish all the very best to DIM to flourish in its journey to create more and more valuable resources to the industry who can bridge the knowledge gaps in different disciplines."          android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="8dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:lineSpacingExtra="3dp"
+            android:fontFamily="times new roman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line2"/>
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/imgthaniya"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/load"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#cacaca"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="180dp"
+                android:text="Taniya Lewwanduwage Business Analyst  at MAS Linea Aqua"
+                android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/Taniya_Lewwanduwage"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="8dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:lineSpacingExtra="3dp"
+            android:fontFamily="times new roman"
+            android:layout_width="match_parent"
+            android:text="Being selected to MIT was one of the best things that happened in my life. I was blessed to be a part of the “IM Family”; home away from home where we created endless memories and were taught to be proud MITians to whom the society could look up to. We were privileged to have associated and be taught by a faculty as qualified and down-toearth as those at the DIM and the well-thought-out curriculum made us explore, learn and be better every day in every way possible. The times were sometimes hectic, but it taught us how to manage the time, how to work with teams and more importantly how to have fun amidst of a zillions of things on the top of our heads. We learnt to respect everyone, speak up when we should and to hear out others and these traits, which were injected to our blood as the culture of our department, is certainly one of the main things that makes MITians outperform others in the industry. Here, we were always taught to be “balanced” individuals; just like the balance they carefully chose between M-and-IT. And looking back, I see myself as a completely transformed individual, who is groomed, tamed and polished and each and every learning I got; every little experience and skill I acquired and all of that courage I collected during my time here help me now in the corporate world – everyday – in and out. So, thanks DIM for making me who I am today! I am forever grateful!"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/line2"/>
+        </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+
+</android.support.v4.widget.DrawerLayout>

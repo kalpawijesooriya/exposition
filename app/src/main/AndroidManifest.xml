@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Exposition.basigarcia.navigationdrawervideotutorial">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".NavigationDrawerTutorial"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_lonch"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Exposition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Gallery"
+            android:label="Interviews"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Webpage"
+            android:label="Web page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Contact_us"
+            android:label="Contact Us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Magazine"
+            android:label="Magazine"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".story"
+            android:label="Stories"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CardDemoActivity"
+            android:label="Team Exposition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditorNote"
+            android:label="Editors&apos; note"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Mit"
+            android:label="MIT"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Succes"
+            android:label="Success Stories"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".hackx"
+            android:label="Hack X"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".IM_news"
+            android:label="IM News"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

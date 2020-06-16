@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fitsSystemWindows="true" tools:openDrawer="start"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="30dp"
+        android:background="#fff"
+        >
+
+        <include
+            layout="@layout/app_bar_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bar"
+            android:background="#00ffffff"
+            android:backgroundTint="#00ffffff" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/bar">
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_margin="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="IM represents Google Summer of Code 2017"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/sathsara"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Choxmi Sathsara and Erandi Ganepola from Level 4 MIT, were selected for the Google Summer of Code (GSoC) Program 2017, where each of them successfully completed a three months programming project with an open source organization. Google Summer of Code is a global program focused on introducing students to open source software development and, has brought together more than 118 countries worldwide. "/>
+
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="IM students at the “Seeds for Future” Program"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/erandi"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Erandi Ganepola and Prabodhika Karunarathne from Level 4 MIT, got selected for the “Seeds for Future” technological training program offered to ten selected undergraduates from island wide state universities. This was held in Shenzhen, China in collaboration with the Ministry of Telecommunication and Digital Infrastructure, Sri Lanka and Huawei Headquarters, Shenzhen, China."/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="IM represents University of Kelaniya at Inter University Games 2017"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/basball"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Many undergraduates from Department of Industrial Management participated in Inter University Games 2017. From them Sameera Rathnayake, Sagara Lakmal, Gimhana Kaldera, Dumindu De Silva, Vihanga Gayantha – MIT undergraduates were part of the Baseball team which represented University of Kelaniya and emerged the champions. Shilpa Gunawardhana – level 2 MIT undergraduate took part in Women’s Hockey team, which emerged the first runner up. From level 1, Minura Punchihewa took part of the Ruger team and Dhanushka Premasinghe and Prabod Dunuwila took part of Taekwondo in inter university games."/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="CODE COMBAT"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/psan"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="IFS 20th anniversary hackathon, CODE COMBAT was held on the 28th of October 2017. Challenges consisting virtual robots within a virtual robot framework was provided for the battle. 15 teams from different universities participated, and the Team Strikers consisting 5 MIT undergraduates: Choxmi Sathsara (Level 4), Rameela Azeez (Team leader - Level 3), Chiran Wijesekara (Level 3), Pasan Pieris (Level 2) and Charinda Dissanayake (Level 2) emerged as the winners."/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="MIT undergraduates dominated Inventio 2k17"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/invensio"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="The Inter-University Innovation Competition (Inventio 2k17) organized along with “Vidya” was held on 9 October 2017. This competition was organized by the Faculty of Science, University of Kelaniya in collaboration with Sri Lanka Inventors Commission. Inventors representing many universities under the categories of: Science, Engineering, Agriculture, Medical and Technology were participated in the competition.
+
+Team Respiro of level 2 MIT undergraduates (Shilpa Gunawardhana,Erandika Lakmali, Upuli Pabasara, SandaluKalpanee) won the ‘Best Overall Invention’ award and a cashprice of LKR. 25,000.00
+
+Best three from each category were selected and awarded Gold, Silver and Bronze medals respectively.
+
+Team Respiro of level 2 MIT undergraduates (Shilpa Gunawardhana,Erandika Lakmali, Upuli Pabasara, Sandalu Kalpanee) was the winner in Engineering category. Team Eco cleaner (Radika Gunawardana, Eranda Herath, H.M. Shibran,Ishara Malaviarachchi) was shortlisted for the final round under this category.
+
+Team C-Bank (Dinith Jayabodhi, Piumika Rajasekara, Aneesha Fernando, Chathura Ranawaka) and team Clever cut (Jatharthan Tharmanandasivam, Amizhthini Nakkeeran, Najjath Fuzzooli, Inthuja Gunaratnam, Fathima Asjadh) of level 2 MIT undergraduates were the winner and first runner up respectively in Agriculture category.
+
+Choxmi Sathsara of level 4 emerged the winner in Medical category for his invention: ‘Mobile application for improving reading and comprehension capabilities of Dyslexic patients’.
+
+Team Greenova (Thisula Mawela, Madhavie Warnakulasuriya, Maneesha Wickramasinghe) and team Exvo (Gimhana Kaldera, Sachini Yashodha, Dumindu De Silva, Thilini Weerasinghe) of level 2 MIT undergraduates were the first and second runner up respectively in Technology category."/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="INFOTEL"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/infotel"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="University of Kelaniya shines at INFOTEL, one of the nation’s biggest ICT exhibitions held at the BMICH from 11th of November to 13th. The Department of Industrial Management showcased IoT-based Smart Systems designed and developed by the students of B.Sc. Degree in Management and Information Technology (MIT). It was a successful endeavor with the assistance extended by the Senior Professor Sunanda Maddumabandara, the former Vice Chancellor of the University of Kelaniya, Dr. Deeyamulla, Director of Technology Support and Innovation Centre, and the staff of Export Development Board. These innovative IoT based smart systems were emerged from the 3rd InCo 2016 Invention Convention launched by the Department of Industrial Management earlier in 2016"/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="FutureX"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/fuchurex"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="The event was organized by SLASSCOM Sri Lanka together with Zebra Technologies, The Grand Finale of Disrupt 2.0: FutureX took place at the Trace City premises on the 9th of December 2016. Team ‘CatchMe’, representing the Department of Industrial Management, University of Kelaniya, was selected to the final round. The team was comprised of Janaka Senanayake, Malith Suraweera, Anojan Kaneshathas and Thimitha Gamage from Level 4 of the BSc. (Special) degree in 2016."/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="Rasogha"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/rasoga"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="“Rasogha” Musical Eve organized by the Department of Industrial Management was held on the 7th December 2016 from 6.00 pm to 9.00 pm at the department premises. The event was organized withthe intention of showcasing the aesthetic talents of the staff as well as the students and also to enhance the rapport among the students and staff. Many students and staff members participated in the event to exhibit their vocals and instrumental talents."/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="Stylish Marketer 2016"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/stylish"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Shiran Silva, from Level 2 of the Department of Industrial Management, emerged 1st runner up of Male Model category at the ‘Signature Stylish Marketer 2016’, the annual fashion extravaganza organized by the Future Marketers Association of the Department of Marketing Management, University of Kelaniya. ‘Stylish Marketer’ was a reality show that the young undergraduate models and designers from all UGC approved universities in Sri Lanka were eligible to participate. Competitors reached the grand finale stage after winning several challenge rounds. "/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="MIT undergraduates emerged the winners at Sri Lanka’s first Fintech Hackathon"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/fintech"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="The Kaffeine Lab, Nations Trust Bank’s (NTB) innovation centre came alive recently as the Bank to host the first Fintech Hackathon in the country. Approximately among 150 teams from across Sri Lanka, the best 16 were selected to compete in the final round. The team, ‘Tech Devs’ (Kalpa Wijesooriya, Gimhana Kaldera, Benuka Withanage and Vihanga Gayantha from Level 2 MIT) with their idea for Online Auctioning Platform, “BIDME”, an android applicationdeveloped for banks to auction the overdue pawned items, were the ultimate winners of the Nations Trust Fintech Hackathon 2017, with a cash prize of LKR 250,000/- and a business loan worth LKR 1 million at a discounted rate of interest. "/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="MAS Award for the Most Outstanding Student of the Year"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/mass"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Mr. Malith Suraweera, Level 4 (Special Degree) undergraduate in BSc. in Management and Information Technology, won the award for the Most Outstanding Student of the Year at MAS awards ceremony
+for the year 2016. Miss. Taniya Leuwwanduwage, Level 4 (Special Degree) won the first runner up while Miss. Lakruwini De Zoyza, Level 04 (Special Degree) was awarded as the second runner up.
+Annually, MAS Holdings Pvt Ltd recognizes and rewards most academically gifted and exceptionally motivated students from local universities. This is awarded not only for the undergraduates’
+academic excellence, but also for taking initiatives to acquire other competencies essential for the corporate world such as soft skills, extra-curricular and community service activities."/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="Sahasak Nemavum – 2016"/>
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/sahasak"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Mihira Bandara and Suresh Abeyweera - Undergraduates of the Department of Industrial Management won the 3rd place at the Sahasak Nemavum competition organized by the Sri Lanka New Inventors’ Commission. They were recognized and awarded for
+their product – a multipurpose convenient bed. Their talents in the infrastructure technologies and applications were highlighted and appreciated by the judges. They were able to succeed as the winners
+for the same product at the New Inventions Competition organized by the University of Kelaniya in 2015. This was regarded as one of the best solutions for the lack of
+space in temporary residences such as university hostels. This can be used as a bed as well as a table where it can keep books and belongings as well. This product consisted of a bed, a table, a chair
+and lockers where to keep things safely. This is a product that could be used for various purposes under space constraints."/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="Spandana Community Service Project 2017"/>
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/spandana"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="The annual IMSSA Community Service Project was successfully held on the 9th and 10th of March 2017 at Bandarawela Wellawaya Gampaha Vidyalaya. The project had the participation of the students of the school from grade 1-11 where seminars were
+conducted in the areas of Mathematics, Science, English, Scholarship Examination and Personal Progress Development. Stationary items, gifts and participation certificates were given to all the participants.
+A collection of Musical Instruments was also provided to the school along with donations for the Library books for the School Library. Furthermore, the classrooms were renovated and tap water facilities were provided to the entire school."/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="Industry Forum - 2017"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/industry"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="The Department of Industrial Management, University of Kelaniya took part in organizing an Industrial Forum on 29th March 2017. The event was organized by the Industrial Management Science Students’ Association (IMSSA) with the collaboration of Industrial Management Alumni Association (IMAA). The forum was focused on educating undergraduates about the importance and the employability of the available specialization programs and finding internship opportunities for third year undergraduates. The alumina members from different areas of industrial expertise shared their experiences in the working arena, and guided the undergraduates towards their future plans. The event was a successful interactive session with the participation
+of all the 2nd, 3rd and 4th year batches who intend to succeed in their future professional careers. The program had a fruitful outcome in identifying their skills and knowledge in different areas. IMAA put together an impressive agenda to make the undergraduates actively participate in this significant event."/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="MIT undergraduates dominated Inspire Sri Lanka"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/Inspire"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Inspire Sri Lanka with Google I/O 2017 extended Sri Lanka is a competition for innovators who are passionate about utilizing technology for a better tomorrow, powered by Mobitel was held on 17th
+and 18th of May 2017 at Stein Studios, Ratmalana. Team Hustlers (Ahmed Ifhaam, Vikum Perera, Thiriyambaga Sarma, Rameela Azeez and Madhushani Dissanayake) and Team Verzians
+(Asanka Basnayake, Chiran Wijesekara, Rajitha Abeysekara, Shiran Silva and Supun Fernando) from Level 03 MIT got shortlisted for the top 5 teams. Team Addah (Darshatha Gamage, Binujaya Rajatheja,
+Sathindu Kavneth, Choxmi Sathsara and Lahiru Koggalahewa) from Level 04 of the MIT degree program was also shortlisted for top 18 innovative ideas.
+"/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="‘Sustainability Leadership’ Training Program and ‘Naturalia-2016’"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/Training"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="The Department of Industrial Management, University of Kelaniya took part in organizing an Industrial Forum on 29th March 2017. The event was organized by the Industrial Management Science Students’
+Association (IMSSA) with the collaboration of Industrial Management Alumni Association (IMAA). The forum was focused on educating undergraduates about the importance and the employability of the
+available specialization programs and finding internship opportunities for third year undergraduates. The alumina members from different areas of industrial expertise shared their experiences in the working
+arena, and guided the undergraduates towards their future plans. The event was a successful interactive session with the participation of all the 2nd, 3rd and 4th year batches who intend to succeed in
+their future professional careers. The program had a fruitful outcome in identifying their skills and knowledge in different areas. IMAA put together an impressive agenda to make the undergraduates actively participate in this significant event."/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="IM Undergraduates at HackaDev"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/HackaDev"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="‘HackaDev’, as a part of the National Software Competition took place at University of Ruhuna on 6th and 7th of October 2017. Team ‘Zeroth’, representing the Department of Industrial Management, University of Kelaniya emerged to be the winners. Shilpa Gunawardhana,
+Chathura Ranawaka, Maleesha Ranawaka, Dumindu De Silva and Aneesha Fernando were the members of team ‘Zeroth’ of level 2. The “Inglorious Masters” was teamed up with Sathindu Kavneth, Choxmi Sathsara, Lahiru Koggalahewa and Binujaya Rajatheja of level 4 which also emerged as the second runner up. "/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="Biz Minds 2017 – Inter University Business Plan Com- petition"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/BizMinds"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="The Inter-University Business Plan Competition (Biz Minds 2017) was held on the 5th of July 2017 at A. T. H. Sunil Shantha Memorial
+Auditorium of the Faculty of Commerce and Management Studies, University of Kelaniya. This competition was organized by the Young
+Entrepreneurs’ Association of the Department of Commerce and Financial Management, University of Kelaniya.
+The candidates representing the University of Kelaniya, University of Ruhuna, University of Jaffna, University of Moratuwa and the University of Sri Jayawardenapura participated in this competition. Out of 74 teams, the championship was won by team ‘Bazura’ of
+the level 3 MIT undergraduates which comprised Supun Fernando, Shiran Silva, Chiran Wijesekara and Rajitha Abeysekara. Shilpa Gunawardhana, Erandika Lakmali, Gimhana Kaldera, Sachini Yashoda from 2nd year were also one of the finalist teams in the competition."/>
+
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="Spandana"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/Spandanashow"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="The annual musical concert “Spandana” organized for the second consecutive year by the Industrial Management Science Students’ Association (IMSSA) on the 28th October 2016 at Sri Dharmaloka
+Hall, University of Kelaniya. The concert was held in order to raise funds for the CSR program carried out by the IMSSA at the Bandarawela/Wellawaya Gampaha Vidyalaya. Renowned artists of Sri Lanka; Mr. Amarasiri Peiris, Ms. Nirosha Virajini and Mr. Athma
+Liyanage performed at the concert. The concert featured the musical performances of the band Sumith Priyankara and crew while the event was hosted by “Indrasiri Suraweera”."/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:text="University Colors Award Ceremony"/>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/Colors"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/load" />
+                <TextView
+                    android:textSize="18sp"
+                    android:lineSpacingExtra="3dp"
+                    android:fontFamily="times new roman"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Students of the Department of Industrial Management shined at the University Colors Award Ceremony held on 23rd December 2016 for their achievements in sports. Shilpa Gunawardana (Level 1) was
+awarded the Best hockey player among all the universities as well as the Best Fresher Sportswoman of the University of Kelaniya.
+Furthermore, there were more than 14 MIT students including Thasindu Ranasingha, Iromi Randikaa, Nadeeka Kiringoda, Neranja Nayani from level 04, Hiruni Niwunhella, Nilumi Bhagya, Erandi Ganepola, Vishvajini Senasinghe, Chathurangani Jayathilake, Kushan
+Sameera, Sagara Lakmal, Achela Silva, Harsha Karunanayake from level 03, Shiran Silva from level 02, Shilpa Gunawardhana from level 01 received colors for different games at the award ceremony. Above all, the Department of Industrial Management shared the pride of having the highest percentage of colors recipients from a single
+department in the university. "/>
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

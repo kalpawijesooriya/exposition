@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_camara" android:icon="@drawable/newspaper"
+            android:title="Magazine" />
+        <item android:id="@+id/nav_gallery" android:icon="@drawable/teamwork"
+            android:title="Interviews" />
+        <item android:id="@+id/nav_slideshow" android:icon="@drawable/script"
+            android:title="Stories"
+            />
+        <item android:id="@+id/nav_manage" android:icon="@drawable/domain"
+            android:title="Website" />
+    </group>
+
+    <item android:title="About">
+    <menu>
+        <item android:id="@+id/nav_share" android:icon="@drawable/group"
+            android:title="Team Exposition" />
+        <item android:id="@+id/nav_send" android:icon="@drawable/telephone"
+            android:title="Contact Us" />
+    </menu>
+</item>
+    <item android:title="Log out">
+        <menu>
+            <item android:id="@+id/nav_log_out" android:icon="@drawable/logout"
+                android:title="Sign Out" />
+
+        </menu>
+    </item>
+
+</menu>

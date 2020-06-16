@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000">
+
+
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scrollView"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/linearLayout">
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="241dp"
+                    android:layout_height="116dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/ic_lonch" />
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="329dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:textColorHint="#d49612">
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="359dp"
+                        android:layout_height="38dp"
+                        android:background="@drawable/rectangle"
+                        android:hint="Name"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="5dp"
+                        android:singleLine="true"
+                        android:textColor="#fff"
+                        android:textSize="15dp" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="325dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="25dp"
+                    android:textColorHint="#d49612">
+
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="323dp"
+                        android:layout_height="39dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:textSize="15dp"
+                        android:hint="E-mail"
+                        android:textColor="#fff"
+                        android:layout_marginTop="25dp"
+                        android:background="@drawable/rectangle"
+                        android:inputType="textEmailAddress" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="325dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="25dp"
+                    android:textColorHint="#d49612">
+
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="323dp"
+                        android:layout_height="39dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:layout_marginTop="25dp"
+                        android:textSize="15dp"
+                        android:background="@drawable/rectangle"
+                        android:hint="password"
+                        android:textColor="#fff"
+                        android:inputType="textPassword" />
+                </android.support.design.widget.TextInputLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="By signing up you agree to our Exposition Terms \nand you have read our Data policy,including\nour Cookie use.You may recive SMS \nnotification from Exposition and can opt-out at \nany time."
+                    android:textSize="12dp"
+                    android:fontFamily="Ebrima"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="0dp"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"/>
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="292dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/register"
+                    android:text="Sign Up"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="Ebrima"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+
+

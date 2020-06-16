@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/cor"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:fitsSystemWindows="true"
+>
+
+<android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
+
+
+
+    <android.support.v7.widget.Toolbar android:id="@+id/toolbarappbar"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+         app:popupTheme="@style/AppTheme.NoActionBar"
+
+                                       xmlns:Toolbar="http://schemas.android.com/apk/res-auto"
+        app:layout_behavior="com.compscitutorials.basigarcia.navigationdrawervideotutorial.ScrollFABBehavior"/>
+
+</android.support.design.widget.AppBarLayout>
+
+<FrameLayout
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/toolbarmain">
+
+</FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_view"
+    android:layout_margin="1dp"
+    android:background="#000000"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardCornerRadius="0dp"
+    card_view:cardElevation="3dp"
+   android:paddingTop="8dp"
+    android:foreground="?selectableItemBackground"
+    android:clickable="true" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+
+            android:id="@+id/item_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="5dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/load"
+            android:scaleType="centerCrop"/>
+
+
+        <TextView
+            android:id="@+id/textViewHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/item_image"
+            android:layout_marginTop="20dp"
+            android:fontFamily="times new roman"
+            android:paddingLeft="5dp"
+            android:text="Heading"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:gravity="right"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textViewDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewHead"
+            android:fontFamily="times new roman"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:textSize="18dp"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginRight="5dp"
+            android:paddingTop="10dp"
+            android:text="Description"
+            android:textColor="#000000"
+           />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:id="@+id/likebut"
+                android:paddingTop="5dp"
+
+                android:paddingBottom="5dp"
+                android:layout_width="33dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="33dp"
+                android:src="@drawable/like" />
+
+            <TextView
+                android:id="@+id/liketxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="3dp"
+                android:text="Like"
+                android:textColor="#707070"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/likeamount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:text="0"
+                android:textColor="#707070"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
